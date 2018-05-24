@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.atollic.truestudio.exe.debug.868005182">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.atollic.truestudio.exe.debug.868005182" moduleId="org.eclipse.cdt.core.settings" name="L476RG">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="com.atollic.truestudio.exe.debug.868005182" name="L476RG" parent="com.atollic.truestudio.exe.debug">
+					<folderInfo id="com.atollic.truestudio.exe.debug.868005182." name="/" resourcePath="">
+						<toolChain id="com.atollic.truestudio.exe.debug.toolchain.2098636002" name="Atollic ARM Tools" superClass="com.atollic.truestudio.exe.debug.toolchain">
+							<option id="com.atollic.truestudio.general.runtimelib.2124241438" superClass="com.atollic.truestudio.general.runtimelib" value="com.atollic.truestudio.ld.general.clib.small" valueType="enumerated"/>
+							<option id="com.atollic.truestudio.toolchain_options.mcu.1147985765" superClass="com.atollic.truestudio.toolchain_options.mcu" value="STM32L476RG" valueType="string"/>
+							<option id="com.atollic.truestudio.toolchain_options.vendor.447138931" superClass="com.atollic.truestudio.toolchain_options.vendor" value="STMicroelectronics" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.atollic.truestudio.exe.debug.toolchain.platform.1713937965" isAbstract="false" name="Debug platform" osList="all" superClass="com.atollic.truestudio.exe.debug.toolchain.platform"/>
+							<builder buildPath="${workspace_loc:/SensorDemo}/L476RG" id="com.atollic.truestudio.mbs.builder1.1360245310" name="CDT Internal Builder.Debug" superClass="com.atollic.truestudio.mbs.builder1"/>
+							<tool id="com.atollic.truestudio.exe.debug.toolchain.as.140791817" name="Assembler" superClass="com.atollic.truestudio.exe.debug.toolchain.as">
+								<option id="com.atollic.truestudio.as.general.incpath.1713556793" superClass="com.atollic.truestudio.as.general.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Middlewares/ST/STM32_BlueNRG/SimpleBlueNRG_HCI/includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/BSP/STM32L4xx_Nucleo&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/BSP/X-NUCLEO-IDB0xA1&quot;"/>
+								</option>
+								<option id="com.atollic.truestudio.common_options.target.mcpu.365187430" superClass="com.atollic.truestudio.common_options.target.mcpu" value="STM32L476RG" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.instr_set.48459865" superClass="com.atollic.truestudio.common_options.target.instr_set" value="com.atollic.truestudio.common_options.target.instr_set.thumb2" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpu.1554062606" superClass="com.atollic.truestudio.common_options.target.fpu" value="com.atollic.truestudio.common_options.target.fpu.soft" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpucore.410591113" superClass="com.atollic.truestudio.common_options.target.fpucore" value="com.atollic.truestudio.common_options.target.fpucore.None" valueType="enumerated"/>
+								<inputType id="com.atollic.truestudio.as.input.563034901" name="Input" superClass="com.atollic.truestudio.as.input"/>
+							</tool>
+							<tool id="com.atollic.truestudio.exe.debug.toolchain.gcc.900932080" name="C Compiler" superClass="com.atollic.truestudio.exe.debug.toolchain.gcc">
+								<option id="com.atollic.truestudio.gcc.optimization.prep_garbage.1746255985" superClass="com.atollic.truestudio.gcc.optimization.prep_garbage" value="true" valueType="boolean"/>
+								<option id="com.atollic.truestudio.gcc.optimization.prep_data.432689490" superClass="com.atollic.truestudio.gcc.optimization.prep_data" value="false" valueType="boolean"/>
+								<option id="com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level.289936706" superClass="com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level" value="com.atollic.truestudio.gcc.optimization.level.0s" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.exe.debug.toolchain.gcc.debug.info.728783601" superClass="com.atollic.truestudio.exe.debug.toolchain.gcc.debug.info" value="com.atollic.truestudio.gcc.debug.info.2" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.gcc.directories.select.112240552" superClass="com.atollic.truestudio.gcc.directories.select" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Middlewares/ST/STM32_BlueNRG/Interface&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Middlewares/ST/STM32_BlueNRG/SimpleBlueNRG_HCI/includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/BSP/STM32L4xx_Nucleo&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/BSP/X-NUCLEO-IDB0xA1&quot;"/>
+								</option>
+								<option id="com.atollic.truestudio.gcc.symbols.defined.1199398605" superClass="com.atollic.truestudio.gcc.symbols.defined" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32L476xx"/>
+									<listOptionValue builtIn="false" value="USE_STM32L4XX_NUCLEO"/>
+								</option>
+								<option id="com.atollic.truestudio.gcc.cstandard.669454317" superClass="com.atollic.truestudio.gcc.cstandard" value="com.atollic.truestudio.gcc.cstandard.c99" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.mcpu.1906827679" superClass="com.atollic.truestudio.common_options.target.mcpu" value="STM32L476RG" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.instr_set.508441057" superClass="com.atollic.truestudio.common_options.target.instr_set" value="com.atollic.truestudio.common_options.target.instr_set.thumb2" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpu.1555067590" superClass="com.atollic.truestudio.common_options.target.fpu" value="com.atollic.truestudio.common_options.target.fpu.soft" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpucore.1774686908" superClass="com.atollic.truestudio.common_options.target.fpucore" value="com.atollic.truestudio.common_options.target.fpucore.None" valueType="enumerated"/>
+								<inputType id="com.atollic.truestudio.gcc.input.1495867135" superClass="com.atollic.truestudio.gcc.input"/>
+							</tool>
+							<tool id="com.atollic.truestudio.exe.debug.toolchain.ld.989192336" name="C Linker" superClass="com.atollic.truestudio.exe.debug.toolchain.ld">
+								<option id="com.atollic.truestudio.ld.general.scriptfile.1123452216" superClass="com.atollic.truestudio.ld.general.scriptfile" value="../STM32L476RGTx_FLASH.ld" valueType="string"/>
+								<option id="com.atollic.truestudio.ld.optimization.do_garbage.846366530" superClass="com.atollic.truestudio.ld.optimization.do_garbage" value="true" valueType="boolean"/>
+								<option id="com.atollic.truestudio.ld.general.static.1325858459" superClass="com.atollic.truestudio.ld.general.static" value="true" valueType="boolean"/>
+								<option id="com.atollic.truestudio.common_options.target.mcpu.295971616" superClass="com.atollic.truestudio.common_options.target.mcpu" value="STM32L476RG" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.instr_set.913448771" superClass="com.atollic.truestudio.common_options.target.instr_set" value="com.atollic.truestudio.common_options.target.instr_set.thumb2" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpu.1587583924" superClass="com.atollic.truestudio.common_options.target.fpu" value="com.atollic.truestudio.common_options.target.fpu.soft" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpucore.1393158888" superClass="com.atollic.truestudio.common_options.target.fpucore" value="com.atollic.truestudio.common_options.target.fpucore.None" valueType="enumerated"/>
+								<inputType id="com.atollic.truestudio.ld.input.1639475873" name="Input" superClass="com.atollic.truestudio.ld.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.atollic.truestudio.exe.debug.toolchain.gpp.1782089505" name="C++ Compiler" superClass="com.atollic.truestudio.exe.debug.toolchain.gpp">
+								<option id="com.atollic.truestudio.gpp.optimization.prep_garbage.152720899" superClass="com.atollic.truestudio.gpp.optimization.prep_garbage" value="true" valueType="boolean"/>
+								<option id="com.atollic.truestudio.gpp.optimization.prep_data.115846426" superClass="com.atollic.truestudio.gpp.optimization.prep_data" value="false" valueType="boolean"/>
+								<option id="com.atollic.truestudio.gpp.optimization.fno_exceptions.1878241478" superClass="com.atollic.truestudio.gpp.optimization.fno_exceptions" value="true" valueType="boolean"/>
+								<option id="com.atollic.truestudio.gpp.optimization.fno_rtti.724763221" superClass="com.atollic.truestudio.gpp.optimization.fno_rtti" value="true" valueType="boolean"/>
+								<option id="com.atollic.truestudio.exe.debug.toolchain.gpp.optimization.level.1519478892" superClass="com.atollic.truestudio.exe.debug.toolchain.gpp.optimization.level" value="com.atollic.truestudio.gpp.optimization.level.00" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.exe.debug.toolchain.gpp.debug.info.1119351365" superClass="com.atollic.truestudio.exe.debug.toolchain.gpp.debug.info" value="com.atollic.truestudio.gpp.debug.info.3" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.mcpu.1899927472" superClass="com.atollic.truestudio.common_options.target.mcpu" value="STM32L476RG" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.instr_set.967061275" superClass="com.atollic.truestudio.common_options.target.instr_set" value="com.atollic.truestudio.common_options.target.instr_set.thumb2" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpu.580460816" superClass="com.atollic.truestudio.common_options.target.fpu" value="com.atollic.truestudio.common_options.target.fpu.soft" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpucore.642994760" superClass="com.atollic.truestudio.common_options.target.fpucore" value="com.atollic.truestudio.common_options.target.fpucore.None" valueType="enumerated"/>
+							</tool>
+							<tool id="com.atollic.truestudio.exe.debug.toolchain.ldcc.1205385963" name="C++ Linker" superClass="com.atollic.truestudio.exe.debug.toolchain.ldcc">
+								<option id="com.atollic.truestudio.ldcc.general.scriptfile.1905473417" superClass="com.atollic.truestudio.ldcc.general.scriptfile" value="${workspace_loc:/${ProjName}/LinkerScript.ld}" valueType="string"/>
+								<option id="com.atollic.truestudio.ldcc.optimization.do_garbage.91310087" superClass="com.atollic.truestudio.ldcc.optimization.do_garbage" value="true" valueType="boolean"/>
+								<option id="com.atollic.truestudio.common_options.target.mcpu.1122521384" superClass="com.atollic.truestudio.common_options.target.mcpu" value="STM32L476RG" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.instr_set.715697144" superClass="com.atollic.truestudio.common_options.target.instr_set" value="com.atollic.truestudio.common_options.target.instr_set.thumb2" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpu.377921189" superClass="com.atollic.truestudio.common_options.target.fpu" value="com.atollic.truestudio.common_options.target.fpu.soft" valueType="enumerated"/>
+								<option id="com.atollic.truestudio.common_options.target.fpucore.1551738442" superClass="com.atollic.truestudio.common_options.target.fpucore" value="com.atollic.truestudio.common_options.target.fpucore.None" valueType="enumerated"/>
+							</tool>
+							<tool id="com.atollic.truestudio.ar.base.752274024" name="Archiver" superClass="com.atollic.truestudio.ar.base"/>
+							<tool id="com.atollic.truestudio.exe.debug.toolchain.secoutput.1454424271" name="Other" superClass="com.atollic.truestudio.exe.debug.toolchain.secoutput"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.atollic.truestudio.exe.debug.868005182.Middlewares/STM32_BlueNRG/Utils/osal.c" name="osal.c" rcbsApplicability="disable" resourcePath="Middlewares/STM32_BlueNRG/Utils/osal.c" toolsToInvoke="com.atollic.truestudio.exe.debug.toolchain.gcc.900932080.2122299042">
+						<tool id="com.atollic.truestudio.exe.debug.toolchain.gcc.900932080.2122299042" name="C Compiler" superClass="com.atollic.truestudio.exe.debug.toolchain.gcc.900932080">
+							<option id="com.atollic.truestudio.gcc.optimization.prep_garbage.534036323" superClass="com.atollic.truestudio.gcc.optimization.prep_garbage" value="true" valueType="boolean"/>
+							<option id="com.atollic.truestudio.gcc.optimization.prep_data.1410124161" superClass="com.atollic.truestudio.gcc.optimization.prep_data" value="false" valueType="boolean"/>
+							<option id="com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level.1887346528" superClass="com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level" value="com.atollic.truestudio.gcc.optimization.level.00" valueType="enumerated"/>
+							<option id="com.atollic.truestudio.gcc.directories.select.631391756" superClass="com.atollic.truestudio.gcc.directories.select" valueType="includePath">
+								<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../Inc&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Middlewares/ST/STM32_BlueNRG/SimpleBlueNRG_HCI/includes&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/CMSIS/Include&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/BSP/STM32L4xx_Nucleo&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${PWD}/../../../../../../../../Drivers/BSP/X-NUCLEO-IDB0xA1&quot;"/>
+							</option>
+							<inputType id="com.atollic.truestudio.gcc.input.1700128909" superClass="com.atollic.truestudio.gcc.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="DMA_LP_SensDemo.fr.ac6.managedbuild.target.gnu.cross.exe.1719204612" name="Executable"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/DMA_LP_SensDemo"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/DMA_LP_SensDemo"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143;fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1797278495;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.482708061">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.release.121925885;fr.ac6.managedbuild.config.gnu.cross.exe.release.121925885.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1496458269;cdt.managedbuild.tool.gnu.c.compiler.input.768381479">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143.1805535642;fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143.1805535642.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.823214157;cdt.managedbuild.tool.gnu.c.compiler.input.1516258926">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143.1805535642;fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143.1805535642.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.823214157;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.863726579">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143;fr.ac6.managedbuild.config.gnu.cross.exe.debug.2138320143.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1797278495;cdt.managedbuild.tool.gnu.c.compiler.input.1117891639">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

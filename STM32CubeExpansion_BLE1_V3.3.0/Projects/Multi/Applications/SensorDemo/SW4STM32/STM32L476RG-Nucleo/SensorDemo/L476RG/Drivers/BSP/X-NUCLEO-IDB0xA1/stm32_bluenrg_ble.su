@@ -1,0 +1,14 @@
+stm32_bluenrg_ble.c:102:6:print_csv_time	0	static
+stm32_bluenrg_ble.c:176:6:BNRG_SPI_Init	0	static
+stm32_bluenrg_ble.c:206:6:BlueNRG_RST	8	static
+stm32_bluenrg_ble.c:220:9:BlueNRG_DataPresent	8	static
+stm32_bluenrg_ble.c:248:9:BlueNRG_SPI_Read_All	56	static
+stm32_bluenrg_ble.c:485:6:set_irq_as_output	32	static
+stm32_bluenrg_ble.c:503:6:set_irq_as_input	32	static
+stm32_bluenrg_ble.c:545:6:Enable_SPI_IRQ	0	static
+stm32_bluenrg_ble.c:555:6:Disable_SPI_IRQ	0	static
+stm32_bluenrg_ble.c:233:6:BlueNRG_HW_Bootloader	8	static
+stm32_bluenrg_ble.c:361:9:BlueNRG_SPI_Write	304	static
+stm32_bluenrg_ble.c:115:6:Hal_Write_Serial	32	static
+stm32_bluenrg_ble.c:565:6:Clear_SPI_IRQ	0	static
+stm32_bluenrg_ble.c:575:6:Clear_SPI_EXTI_Flag	0	static

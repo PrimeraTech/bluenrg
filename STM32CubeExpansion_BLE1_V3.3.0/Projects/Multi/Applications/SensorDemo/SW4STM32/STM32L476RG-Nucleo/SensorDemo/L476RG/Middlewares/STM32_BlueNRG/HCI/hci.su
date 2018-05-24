@@ -1,0 +1,11 @@
+hci.c:191:13:move_list.constprop	24	static
+hci.c:53:6:hci_timeout_callback	0	static
+hci.c:59:6:HCI_Init	16	static
+hci.c:83:5:HCI_verify	0	static
+hci.c:96:13:HCI_Event_CB	0	static
+hci.c:123:6:HCI_Queue_Empty	0	static
+hci.c:128:6:HCI_Isr	24	static
+hci.c:101:6:HCI_Process	24	static
+hci.c:164:6:hci_write	0	static
+hci.c:177:6:hci_send_cmd	24	static
+hci.c:219:5:hci_send_req	56	static
